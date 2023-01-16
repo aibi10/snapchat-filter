@@ -1,0 +1,33 @@
+<MyGrid>
+    GridLayout:
+
+        cols:1
+        size: root.width - 200, root.height - 200
+        pos: 100, 100
+
+
+        Button:
+            text: "black goggles"
+            on_press: root.black_sunglass()
+
+        Button:
+            text: "beach sunglasses"
+            on_press: root.beach_sunglass()
+
+        Button:
+            text: "tilak"
+            on_press: root.tika()
+
+
+        Button:
+            text: "convocation cap"
+            on_press: root.convocation()
+
+
+        Button:
+            text: "convocation cap with sunglass"
+            on_press: root.convocation_sunglass()
+
+        Button:
+            text: "black goggles with tilak"
+            on_press: root.sunglass_tika()
